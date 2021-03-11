@@ -4,9 +4,20 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// 引入路由
+import MyRouter from './Router/Router';
+
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
+
+/* 路由DOM渲染 */
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <MyRouter />
   </React.StrictMode>,
   document.getElementById('root')
 );
